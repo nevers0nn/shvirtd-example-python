@@ -1,2 +1,1 @@
-# устанавливается через: crontab backup.cron  (или crontab -e и вставить строку ниже)
 * * * * * /home/nevers0nn/backup.sh >> /opt/backup/backup.log 2>&1
